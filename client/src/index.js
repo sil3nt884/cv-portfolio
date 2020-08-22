@@ -1,16 +1,11 @@
-import React, { Component } from 'react'
-import Header from './components/header'
-import Intro from './components/intro'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './app';
 
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Header />
-        <Intro />
-      </div>
-    );
-  }
-}
-export default App;
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);

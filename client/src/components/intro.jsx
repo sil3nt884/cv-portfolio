@@ -13,7 +13,7 @@ export default class App extends Component {
                 <span>Front-end Developer</span>
                 <span>UI/UX Designer</span>
               </p>
-              <a className="button stroke smoothscroll" href="#about" title>More About Me</a>
+              <a className="button stroke smoothscroll" href="/#about" >More About Me</a>
             </div>
           </div>
         </div>
