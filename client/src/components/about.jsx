@@ -7,7 +7,7 @@ export default class about extends Component {
           <h5>About</h5>
           <h1>Let me introduce myself.</h1>
           <div className="intro-info">
-            <img src="images/profile-pic.jpg" alt="Profile Picture"/>
+            <img src="images/profile-pic.jpg" alt="profile"/>
             <p className="lead">Lorem ipsum Exercitation culpa qui dolor consequat exercitation fugiat laborum ex ea
               eiusmod ad do aliqua occaecat nisi ad irure sunt id pariatur Duis laboris amet exercitation veniam labore
               consectetur ea id quis eiusmod.</p>
@@ -73,12 +73,7 @@ export default class about extends Component {
           {/* /skill-bars */}
         </div>
       </div>
-      <div className="row button-section">
-        <div className="col-twelve">
-          <a href="#contact" title="Hire Me" className="button stroke smoothscroll">Hire Me</a>
-          <a href="#" title="Download CV" className="button button-primary">Download CV</a>
-        </div>
-      </div>
+       <img class="banner-img" src="/images/banner.jpg"></img>
     </section>)
 
   }
