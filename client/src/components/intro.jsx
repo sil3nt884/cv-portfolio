@@ -8,10 +8,10 @@ export default class App extends Component {
           <div className="row">
             <div className="col-twelve">
               <h5>Hello, World.</h5>
-              <h1>I'm Juan Dela Cruz.</h1>
+              <h1>I'm Ricky Luu.</h1>
               <p className="intro-position">
-                <span>Front-end Developer</span>
-                <span>UI/UX Designer</span>
+                <span>Node JS Developer</span>
+                <span>Application Support Engineer</span>
               </p>
               <a className="button stroke smoothscroll" href="/#about" >More About Me</a>
             </div>

@@ -1628,7 +1628,7 @@ header .logo a {
 #resume {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
-	margin-top: -160px;
+	margin-top: -200px;
 }
 
 #resume .resume-header {
@@ -1795,6 +1795,47 @@ header .logo a {
  *
  * -------------------------------------------------------------------
  */
+
+#gdpr-consent {
+	background: black;
+	max-width: 50%;
+	position:fixed;
+	bottom:10px;
+	right:25%;
+	left:25%;
+	margin: 0 auto;
+	box-shadow: 10px 10px 5px grey;
+	z-index: 100;
+
+}
+
+.gdpr-buttons {
+	margin: 0 auto;
+	position: static;
+	padding-left: 35%;
+}
+
+.banner-content {
+	word-break: normal;
+	word-wrap: normal;
+	width:  90%;
+	text-align: center;
+	padding-left: 10%;
+
+}
+
+#privacy-policy {
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+
+}
+
+.privacy-content {
+	margin-top: -200px;
+	background: #ebebeb;
+	padding-bottom: 100px;
+}
+
 #portfolio {
 	background: #FFFFFF;
 	padding-top: 12rem;

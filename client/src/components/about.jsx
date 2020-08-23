@@ -7,10 +7,8 @@ export default class about extends Component {
           <h5>About</h5>
           <h1>Let me introduce myself.</h1>
           <div className="intro-info">
-            <img src="images/profile-pic.jpg" alt="profile"/>
-            <p className="lead">Lorem ipsum Exercitation culpa qui dolor consequat exercitation fugiat laborum ex ea
-              eiusmod ad do aliqua occaecat nisi ad irure sunt id pariatur Duis laboris amet exercitation veniam labore
-              consectetur ea id quis eiusmod.</p>
+            <img src="images/me.jpg" alt="profile"/>
+            <p className="lead">A Developer that has come from a front facing Application support role, with the curiosity to learn new technologies. As well as knowledge from two vastly different roles from deploying servers to working with Nodejs. And has demonstrated understanding of kubernetes, load balancers ,Linux Systems, SQL, Java, and Javascript and also holds a Bsc in Computer Science.</p>
           </div>
         </div>
       </div>
@@ -18,62 +16,53 @@ export default class about extends Component {
       <div className="row about-content">
         <div className="col-six tab-full">
           <h3>Profile</h3>
-          <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur
-            nisi commodo ea magna pariatur nisi cillum.</p>
           <ul className="info-list">
             <li>
               <strong>Fullname:</strong>
-              <span>Juan Dela Cruz</span>
+              <span>Ricky Luu</span>
             </li>
             <li>
               <strong>Birth Date:</strong>
-              <span>September 28, 1987</span>
+              <span>August 16 1991</span>
             </li>
             <li>
               <strong>Job:</strong>
-              <span>Freelancer, Frontend Developer</span>
-            </li>
-            <li>
-              <strong>Website:</strong>
-              <span>www.kardswebsite.com</span>
+              <span>Node JS Developer</span>
             </li>
             <li>
               <strong>Email:</strong>
-              <span>me@kardswebsite.com</span>
+              <span>rickyluu247@gmail.com</span>
             </li>
           </ul>
           {/* /info-list */}
         </div>
         <div className="col-six tab-full">
           <h3>Skills</h3>
-          <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur
-            nisi commodo ea magna pariatur nisi cillum.</p>
           <ul className="skill-bars">
             <li>
-              <div className="progress percent90"><span>90%</span></div>
-              <strong>HTML5</strong>
-            </li>
-            <li>
-              <div className="progress percent85"><span>85%</span></div>
-              <strong>CSS3</strong>
-            </li>
-            <li>
-              <div className="progress percent70"><span>70%</span></div>
-              <strong>JQuery</strong>
+              <div className="progress percent95"><span>95%</span></div>
+              <strong>JavaScript</strong>
             </li>
             <li>
               <div className="progress percent95"><span>95%</span></div>
-              <strong>PHP</strong>
+              <strong>Node JS</strong>
             </li>
             <li>
-              <div className="progress percent75"><span>75%</span></div>
-              <strong>Wordpress</strong>
+              <div className="progress percent70"><span>70%</span></div>
+              <strong>Java</strong>
+            </li>
+            <li>
+              <div className="progress percent70"><span>70%</span></div>
+              <strong>SQL</strong>
+            </li>
+            <li>
+              <div className="progress percent50"><span>50%</span></div>
+              <strong>Linux</strong>
             </li>
           </ul>
           {/* /skill-bars */}
         </div>
       </div>
-       <img class="banner-img" src="/images/banner.jpg"></img>
     </section>)
 
   }

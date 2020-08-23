@@ -5,6 +5,8 @@ import About from './components/about'
 import Portfolio from './components/portfolio'
 import Contact from './components/contact'
 import CV from './components/cv'
+import Privacy from './components/privacy'
+import Footer from './components/footer'
 
 
 class App extends Component {
@@ -25,7 +27,9 @@ class App extends Component {
         <About />
         <CV />
         <Portfolio />
+        <Privacy />
         <Contact />
+        <Footer />
       </div>
     );
   }
